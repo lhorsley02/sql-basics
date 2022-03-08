@@ -1,3 +1,10 @@
+-- CREATE TABLE animals(
+--   order_id  SERIAL PRIMARY KEY,
+--   name VARCHAR (50),
+--   type VARCHAR (100),
+--   age FLOAT
+-- );
+
 -- INSERT INTO animals ( name, type, age ) 
 -- VALUES ('Leo', 'lion', 12),
 -- ('Jerry', 'mouse', 4),
@@ -8,3 +15,14 @@
 -- ('Nala', 'lion', 2),
 -- ('Marie', 'cat', 1),
 -- ('Flounder', 'fish', 8);
+
+-- SELECT * FROM animals
+
+-- DELETE FROM animals
+-- WHERE type = 'lion'
+
+-- DELETE FROM animals
+-- WHERE name LIKE 'M%'
+
+-- DELETE FROM animals
+-- WHERE age < 9
